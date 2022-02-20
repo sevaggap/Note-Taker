@@ -2,7 +2,6 @@ const express = require('express');
 const path = require('path');
 const fs = require('fs');
 const uuid = require('./helpers/uuid');
-const { parse } = require('path');
 
 const PORT = process.env.PORT || 3001
 
